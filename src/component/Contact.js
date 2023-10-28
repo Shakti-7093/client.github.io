@@ -37,7 +37,7 @@ const Contact = ()=>{
     const contactForm = async (e) => {
         e.preventDefault();
         const {name, phone, email, message} = userData;
-        const res = await fetch('/contact', {
+        const res = await fetch('https://mern-gold.vercel.app/router/auth.js', {
             method: "POST",
             headers: {
                 "Content-Type":"application/json"
