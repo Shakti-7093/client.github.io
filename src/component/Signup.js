@@ -20,7 +20,7 @@ const Signup = ()=>{
     const PostData = async (e) => {
         e.preventDefault();
         const { name, email, phone, work, password, confpassword } = user;
-        const res = await fetch("/register", {
+        const res = await fetch("https://mern-gold.vercel.app/router/auth.js", {
             method: "POST",
             headers: {
                 "Content-Type":"application/json"
