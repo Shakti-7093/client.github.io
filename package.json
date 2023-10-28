@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy":"https://shakti-7093.github.io/Server.github.io",
+  "proxy":"https://shakti-7093.github.io/MERN/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
