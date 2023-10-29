@@ -10,7 +10,7 @@ const About = ()=>{
 
   const callAboutPage = async () => {
     try {
-      const res = await fetch("https://mern-gold.vercel.app/router/auth.js", {
+      const res = await fetch("/about", {
         method: "GET",
         headers: {
           Accept:"application/json",
