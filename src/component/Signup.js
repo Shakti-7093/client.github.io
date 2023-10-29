@@ -20,7 +20,7 @@ const Signup = ()=>{
     const PostData = async (e) => {
         e.preventDefault();
         const { name, email, phone, work, password, confpassword } = user;
-        const res = await fetch("https://eager-pig-peplum.cyclic.app/", {
+        const res = await fetch("https://eager-pig-peplum.cyclic.app/router/auth.js", {
             method: "POST",
             headers: {
                 "Content-Type":"application/json"
