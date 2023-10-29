@@ -6,7 +6,7 @@ const Home = () => {
 
   const userContect = async () => {
       try {
-        const res = await fetch('https://mern-gold.vercel.app/router/auth.js', {
+        const res = await fetch('/gatdata', {
           method: "GET",
           headers: {
               "Content-Type":"application/json"
