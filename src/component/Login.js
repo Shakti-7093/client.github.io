@@ -13,7 +13,7 @@ const Login = ()=>{
 
   const loginUser = async (e)=>{
     e.preventDefault();
-    const res = await fetch("/router/auth.js", {
+    const res = await fetch("/signin", {
       method: "POST",
       headers: {
           "Content-Type":"application/json"
